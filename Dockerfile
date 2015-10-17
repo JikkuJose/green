@@ -1,4 +1,5 @@
 FROM ubuntu:latest
+MAINTAINER Jikku Jose <jikkujose@gmail.com>
 
 RUN apt-get update -yq
 RUN apt-get install -yq wget
